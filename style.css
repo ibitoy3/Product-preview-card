@@ -60,9 +60,14 @@ html {
 }
 
 body {
-  padding-inline: 0.8125rem;
   padding-block-start: 5rem;
   width: 100%;
+  height: 100vh;
+  color: var(--clr-Cream);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6rem;
 }
 
 .wrapper {
@@ -124,10 +129,6 @@ h2 {
   font-size: 0.875rem;
   text-decoration-line: line-through;
   color: var(--clr-Grey);
-}
-
-.cart {
-  display: block;
 }
 
 button {
