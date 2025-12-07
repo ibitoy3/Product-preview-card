@@ -143,6 +143,11 @@ button {
   background-color: var(--clr-Green-500);
 }
 
+button:hover {
+  cursor: pointer;
+  background-color: var(--clr-Green-700);
+}
+
 button > p {
   color: var(--clr-White);
   font-weight: 700;
